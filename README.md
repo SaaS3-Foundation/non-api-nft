@@ -1,1 +1,2 @@
-# non-API Algorithim NFT
+# (NAFT) non-API Algorithim NFT
+Pure collection usage rather than practical decentralized API.
