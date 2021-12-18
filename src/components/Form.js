@@ -4,7 +4,8 @@ const form = props => {
 
   return (
     <div className="card bg-dark mb-3 mx-auto" style={{ maxWidth: '512px' }}>
-        <h2 className="text-white bg-dark text-monospace"><b><ins>Mint an non-API NFT and Upload to IPFS</ins></b></h2>
+        <h2 className="text-white bg-dark text-monospace"><b><ins>Mint a non-API NFT and Upload to IPFS.
+            (*.js,*.py,*.html,*.cpp)</ins></b></h2>
         <p>&nbsp;</p>
         <form onSubmit={(event) => {
             event.preventDefault()

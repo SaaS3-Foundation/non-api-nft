@@ -11,7 +11,7 @@ const header = props => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        NFT-IPFS
+      non-API Algorithm NFT
       </a>
       <ul className="navbar-nav px-3">
         <li>
@@ -26,7 +26,7 @@ const header = props => {
               {props.account.substring(0,6)}...{props.account.substring(38,42)}
             </a>
           </medium>
-          {(props.account) ? 
+          {(props.account) ?
               <img
                 className='ml-2'
                 src={`data:image/png;base64,${new Identicon(props.account, 30).toString()}`}
